@@ -1,0 +1,15 @@
+/* mixin_margins */
+@mixin mixi($pixels) {
+    margin-left: #{$pixels}px;
+    margin-right: #{$pixels}px;
+
+}
+
+body {
+
+    @include mixi(10);
+}
+
+div {
+    @include mixi(15);
+}

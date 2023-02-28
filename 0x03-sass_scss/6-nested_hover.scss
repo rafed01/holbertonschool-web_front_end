@@ -1,0 +1,9 @@
+/* Sass file that assigns > .red */
+
+button {
+    color: #FF0000;
+
+    &:hover {
+        color: #00FF00;
+    }
+}
